@@ -1,6 +1,8 @@
 #!/bin/bash
 #set -e
 
+# https://www.git-tower.com/learn/git/faq/undo-last-commit
+
 echo "Checking for newer files online first"
 git pull
 
@@ -20,6 +22,7 @@ git commit -m "$input"
 
 # Push local files to github
 git push -u origin main
+#git push -u origin main --force
 
 echo "#########################"
 echo "###   git push done   ###"

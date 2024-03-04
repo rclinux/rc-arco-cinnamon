@@ -1,0 +1,17 @@
+2024-02-24 16:27:09.317 [info] Log level: Info
+2024-02-24 16:27:09.317 [info] Validating found git in: "git"
+2024-02-24 16:27:09.317 [info] Using git "2.44.0" from "git"
+2024-02-24 16:27:09.317 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-24 16:27:09.317 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-02-24 16:27:09.317 [info] Open repository: /home/rcraig/Desktop/sierra
+2024-02-24 16:27:09.317 [info] > git config --get commit.template [6ms]
+2024-02-24 16:27:09.317 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-24 16:27:09.317 [warning] ENOENT: no such file or directory, open '/home/rcraig/Desktop/sierra/.git/refs/remotes/origin/main'
+2024-02-24 16:27:09.317 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-24 16:27:09.317 [info] > git status -z -uall [2ms]
+2024-02-24 16:27:09.317 [info] > git config --get commit.template [7ms]
+2024-02-24 16:27:09.317 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-02-24 16:27:09.317 [warning] ENOENT: no such file or directory, open '/home/rcraig/Desktop/sierra/.git/refs/remotes/origin/main'
+2024-02-24 16:27:09.318 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-24 16:27:09.322 [info] > git status -z -uall [1ms]
+2024-02-24 16:27:09.903 [info] > git check-ignore -v -z --stdin [1ms]
