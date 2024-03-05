@@ -20,5 +20,6 @@ git config --global push.default simple
 git remote set-url origin git@github.com:rclinux/$project
 
 echo "Everything set"
-
+echo "============="
 echo "T H E   E N D"
+echo "============="
